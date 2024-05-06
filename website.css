@@ -1,0 +1,370 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.unipadding {
+    padding: 0 7%;
+}
+#mode{
+    padding: 10px;
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: none;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.topbar {
+    background-color: #576574;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    overflow: auto;
+
+}
+
+.icons {
+    float: right;
+}
+
+#tollfree {
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+.fab {
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.logobar img {
+    width: 200px;
+    margin: 25px 0px;
+}
+
+/* nav bar */
+.navbar {
+    background-color: #ee5253;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 20px 0px;
+    padding-right: 35px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.poster {
+    background-image: url(https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?cs=srgb&dl=pexels-pixabay-302769.jpg&fm=jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.poster h1 {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.poster p {
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* Why  us */
+
+.whyus {
+    overflow: auto;
+
+}
+
+.red {
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 38px;
+}
+
+.section33 h2 {
+    color: #ee5253;
+    margin-bottom: 38px;
+
+}
+
+.section33 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.section33 img {
+    width: 50%;
+    margin-bottom: 38px;
+}
+
+.section33 p {
+    margin-bottom: 38px;
+    /* padding: 34px; */
+    text-align: justify;
+}
+
+/* Conatact Section */
+
+.contact {
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section70 {
+    width: 70%;
+    float: left;
+    padding: 30px 0px;
+}
+
+.section30 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+.section30 button {
+    background-color: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.section70 h2 {
+    padding-bottom: 10px;
+    font-size: 38px;
+}
+
+/* footer */
+.link {
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+
+.div33 {
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.div33 h3 {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    margin-bottom: 20px;
+}
+
+/* blog */
+.blog img {
+    border-radius: 20px;
+}
+
+.blog a {
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* nesletter */
+
+.news {
+    background-color: #ee5253;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+    color: white;
+}
+
+.div50 {
+    width: 50%;
+    float: left;
+}
+
+.div50 h2 {
+    text-align: right;
+    padding-right: 40px;
+    font-size: 36px;
+}
+
+.div50 form {
+    padding-top: 0px;
+}
+
+.div50 input {
+    padding: 10px 15px;
+    width: 45%;
+    margin-right: 20px;
+    border: none;
+}
+
+.div50 button {
+    padding: 8px 20px;
+    color: #ee5253;
+    border: none;
+    font-size: 15px;
+}
+
+#footerMenu {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#footerMenu li {
+
+    padding-bottom: 10px;
+}
+
+#footerMenu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.haha {
+    padding-left: 0px;
+    position: relative;
+    right: 10px;
+
+}
+
+/* Copyright */
+
+.copyright {
+    background-color: #222f3e;
+    color: #fff;
+    text-align: center;
+    padding: 24px;
+}
+
+/* You have to remove this */
+/* .gaga{
+   position: relative;
+   left: 70px;
+} */
+/* Responsiveness */
+
+@media only screen and (max-width: 820px) {
+    .navbar ul li {
+        padding-right: 24px;
+    }
+
+    .section70 {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .div50 h2 {
+        text-align: center;
+    }
+}
+
+/* Responsive for i-phone */
+
+@media only screen and (max-width: 500px) {
+    .logobar {
+        text-align: center;
+    }
+
+    .poster h1 {
+        font-size: 30px;
+    }
+
+    .poster p {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .section33,
+    .div33,
+    .section70 {
+        width: 100%;
+    }
+
+    .section30 button {
+        padding: 10px 30px;
+    }
+
+    .haha {
+        padding-left: 59px;
+    }
+
+    .section70 {
+        padding-left: 30px;
+    }
+
+    .section30 {
+        padding-left: 94px;
+    }
+
+    .news {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .div50 h2 {
+        margin-bottom: 20px;
+    }
+
+    .div50 input {
+        width: 14rem;
+        margin-bottom: 10px;
+        position: relative;
+        left: 40px;
+        position: relative;
+        left: 16px;
+        text-align: center;
+    }
+
+    .div50 button {
+        width: 6rem;
+    }
+
+    .div50 form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
